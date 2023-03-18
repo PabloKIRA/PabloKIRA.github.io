@@ -16,7 +16,7 @@ $(document).ready(function() {
   var progressBar = $('.progress-bar');
   var progress = 0;
   var interval = setInterval(function() {
-    progress += 5;
+    progress += valor;
     if (progress > 100) {
       clearInterval(interval);
     }

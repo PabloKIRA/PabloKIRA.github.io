@@ -364,7 +364,7 @@ legend {
           padding: 20px;
          }
         footer {
-   background-color:rgb(204, 32, 190);
+   background-color:rgb(25, 51, 105);
      padding: 20px;
       text-align: center;
             position: fixed;
@@ -374,7 +374,7 @@ legend {
             max-width: 100%;
             height: auto;
             flex-wrap: wrap;    
-            color: #ccc;  
+            color:#ccc;  
           }  
         
         
