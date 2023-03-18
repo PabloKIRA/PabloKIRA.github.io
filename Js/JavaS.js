@@ -24,18 +24,5 @@ $(document).ready(function() {
   }, 100);
 });
 
-$(document).ready(function() {
-  var progressBar = $('.progress-bar');
-  var progressText = $('.progress-text');
-  var progress = 0;
-  var interval = setInterval(function() {
-    progress += 5;
-    if (progress > 100) {
-      clearInterval(interval);
-    }
-    progressBar.css('width', progress + '%');
-    progressText.text(progress + '%');
-  }, 100);
-});
 
 

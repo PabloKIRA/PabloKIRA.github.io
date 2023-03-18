@@ -82,7 +82,7 @@ legend{
 }
 legend:hover
 {
-    background-color: rgb(224, 224, 211);
+    background-color:#c0cdf8
 }
 *{
     padding: 0%;
@@ -113,7 +113,7 @@ legend:hover
 }
  .menu li a:hover
  {
-    background:#979492
+    background:#c0cdf8
  }
  .estudios{
   padding: 5px;
