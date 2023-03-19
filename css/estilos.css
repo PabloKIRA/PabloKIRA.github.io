@@ -430,7 +430,7 @@ details:hover {
 }
 
 details[open] {
-  background-color:aquamarine; 
+  background-color:rgb(25, 51, 105);
 }
 
 summary {
