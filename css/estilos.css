@@ -1,0 +1,456 @@
+h1
+{
+  padding: 30px;
+    font-family:'Playfair Display SC', serif; 
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.contenedor{
+  padding: 5px;
+  margin: 5px;
+  flex: 1;
+}
+  .fotocv {
+  display: flex;
+  max-width: 100%;
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  width: 135px;
+  height: 135px;
+  padding: 30px;
+  }
+  .banner-container {
+    background-image:url(https://thumbs.dreamstime.com/b/c%C3%B3digo-del-desarrollo-web-css-dise%C3%B1a-l%C3%ADneas-de-la-escritura-preprocesador-126111589.jpg) ; /* color de fondo del banner */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* altura del banner */
+  }
+  .photo-container {
+    background: #cbebe3; /* color de fondo de la foto */
+    padding: 10px; /* espacio entre el borde y la foto */
+    border: 3px solid #0c0c0c; /* borde de la foto */
+    border-radius: 50%; /* redondear la foto */
+    max-width: 200px; /* tamaño máximo de la foto */
+    height: 200px; /* altura de la foto */
+  }
+  
+  .photo-container img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+  }
+
+  .nombres{
+    text-align:left;
+    margin-left: 3%;
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+
+.detalle{
+ 
+  font-family:'Roboto', sans-serif;
+  font-size: 15px;
+  justify-content: center;
+  height:auto;
+  max-width: 100%;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 10px;
+  float:right;
+}
+
+h1{
+   font-family:'Playfair Display SC', serif;
+    display: flex;
+    justify-content: center;
+}
+legend{
+    border: solid;color: rgb(255, 255, 255);
+background-color: antiquewhite;
+    font-size:x-large
+    
+
+}
+legend{
+    background-color: rgb(25, 51, 105)
+}
+legend:hover
+{
+    background-color:rgb(16, 143, 228)
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.menu{
+    font-family:monospace;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0%;
+    background-color: rgb(25, 51, 105);
+    width:auto;
+    max-width: 100%;
+    margin: auto;
+    font-size: 100%;
+    height: auto;
+    flex-wrap: wrap;
+}
+.menu li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: block;
+
+}
+ .menu li a:hover
+ {
+    background:rgb(0, 2, 7)
+ }
+ .estudios{
+  padding: 5px;
+  margin: 5px;
+  flex-wrap: wrap;
+ }
+
+.exp{
+  margin: 5px;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+.datos{
+ list-style: none;
+ margin: 20px;
+padding: 20px;
+text-align:center;
+}
+.leng{
+margin: 5px;
+padding: 5px;
+flex-wrap: wrap;  
+  }
+    
+
+legend {
+    font-family: 'Playfair Display SC', serif;
+}
+.Proyectos{
+    padding: 10%;
+    width: 90%;
+    flex-wrap: wrap;
+    padding: 10px;
+    text-align: center;
+
+}
+.leng{
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+
+
+        
+         .imgw{
+           max-width: 100%;
+           height:auto;
+           padding: 5px;
+           margin: 5px;
+         }
+         
+              
+         .whatsapp-button {
+          display: inline-block;
+          background-color: #25D366;
+          color: #fff;
+          text-decoration: none;
+          padding: 10px 15px;
+          border-radius: 50px;
+          font-size: 18px;
+          font-weight: bold;
+          box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+        }
+              /*Boton de whatsapp*/
+
+              .whatsapp-button:hover {
+                background-color: #128C7E;
+              }
+             
+              .whatsapp-button {
+                position: fixed;
+                bottom: 20px; /* ajusta este valor para cambiar la posición vertical del botón */
+                right: 20px; /* ajusta este valor para cambiar la posición horizontal del botón */
+                z-index: 9999; /* asegura que el botón esté siempre en la parte superior */
+           
+              }
+        
+        
+             
+           
+           /*estilo de los botones */
+           button {
+            background-image: linear-gradient(
+            150deg,
+            #9500ff,
+            rgb(8, 45, 148),
+            #0ba5bd
+            );
+            border-radius: 8px;
+            color: #fff;
+            display: flex;
+            font-size: 18px;
+            padding: 4px;
+            cursor: pointer;
+            transition: .3s;
+           }
+           button span{
+            background-color: #111;
+            padding: 16px 24px;
+            border-radius: 6px;
+            transition: .3s;
+           }
+           button:hover span{
+            background: none;
+           }
+           button :active{
+            transform: scale(0.9);
+
+           }
+
+          
+          
+              /*los media querys*/
+          @media (min-width: 600px) {
+            body {
+              font-size: 18px;
+            }
+          }
+          
+          footer {
+            min-height: 30px;
+          }
+          @media (max-width: 600px) {
+            footer {
+              font-size: 12px;
+              
+            }
+          }
+          
+         #fotoemp{
+          display: flex;
+  max-width: 100%;
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin-right: 20px;
+  padding: 10px;
+  margin: 20px
+  ;
+
+         }
+         
+         .container{
+          background-color: #ffffff;
+          width:  100%;
+          height: auto;
+           overflow: auto;
+           border: solid;
+           border-width: 2px;
+          border-radius: 2px;
+           padding: 20px;}
+
+           
+         #fotoempw{
+          display: flex;
+  max-width: 100%;
+  height: 180px;
+  width: 180px;
+  float: left;
+  margin-right: 20px;
+         }
+
+         
+
+         /*formulario contacto*/
+         form {
+          max-width: 500px;
+          margin: 0 auto;
+          padding: 20px;
+          background-color: #f4f4f4;
+          border-radius: 5px;
+          font-family: Arial, sans-serif;
+        }
+        
+        label {
+          display: block;
+          margin-bottom: 5px;
+        }
+        
+        input, textarea {
+          display: block;
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 20px;
+          border-radius: 5px;
+          border: none;
+        }
+        
+        button[type="submit"] {
+          background-color: #4CAF50;
+          color: white;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          font-size: 16px;
+          font-weight: bold;
+        }
+        
+        button[type="submit"]:hover {
+          background-color: #3e8e41;
+        }
+
+      #formulario {
+        justify-content: center;
+
+        }
+        #botoncontacto{
+          
+          margin: 20px;
+          padding: 10px;
+        }
+        
+        .barraProgreso {
+          width: 100%;
+          height: 20px;
+          border-radius: 10px;
+          border: none;
+          background-color: #f2f2f2;
+          -webkit-appearance: none;
+          appearance: none;
+          margin-bottom: 10px;
+        }
+        
+        .barraProgreso::-webkit-progress-bar {
+          background-color: #f2f2f2;
+          border-radius: 10px;
+        }
+        
+        .barraProgreso::-webkit-progress-value {
+          background-color: #4caf50;
+          border-radius: 10px;
+          transition: width 0.5s ease-in-out;
+        }
+        
+        
+        
+        
+        
+        
+
+
+         #argpro{
+          display: flex;
+          max-width: 100%;
+          height: auto;
+          width: auto;
+          padding: 20px;
+         }
+        footer {
+   background-color:rgb(25, 51, 105);
+     padding: 20px;
+      text-align: center;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            flex-wrap: wrap;    
+            color:#ccc;  
+          }  
+        
+        
+          
+/*barra de menus idiomas/*/
+details {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  font-family: 'Playfair Display SC', serif;
+  border: solid;color: rgb(255, 254, 254);
+}
+
+details:hover {
+  background-color: #f5f5f5;
+}
+
+details[open] {
+  background-color: #f5f5f5;
+}
+
+summary {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+summary::before {
+  content: "\25BC";
+  margin-right: 5px;
+}
+
+details[open] summary::before {
+  content: "\25B2";
+}
+
+details {
+  background-color: #3498db; 
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+details:hover {
+  background-color: #feffff; 
+}
+
+details[open] {
+  background-color:rgb(25, 51, 105);
+}
+
+summary {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #000000; 
+}
+
+summary::before {
+  content: "\25BC";
+  margin-right: 5px;
+}
+
+details[open] summary::before {
+  content: "\25B2";
+}
+
+#competencias{
+  font-family: 'Playfair Display SC', serif;
+  border: solid;color: black;
+
+}
