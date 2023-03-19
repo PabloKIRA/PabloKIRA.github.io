@@ -282,10 +282,11 @@ legend {
          form {
           max-width: 500px;
           margin: 0 auto;
-          padding: 20px;
-          background-color: #f4f4f4;
+          padding: 10px;
+          background-color: #a7aab8;
           border-radius: 5px;
           font-family: Arial, sans-serif;
+          color: #ffffff;
         }
         
         label {
@@ -327,33 +328,33 @@ legend {
           padding: 10px;
         }
         
-        .progress {
-          position: relative;
+        .barraProgreso {
           width: 100%;
           height: 20px;
+          border-radius: 10px;
+          border: none;
           background-color: #f2f2f2;
+          -webkit-appearance: none;
+          appearance: none;
+          margin-bottom: 10px;
         }
         
-        .progress-bar {
-          position: absolute;
-          top: 0;
-          left: 0;
-          height: 100%;
-          background-color: #4CAF50;
-          animation: progress-bar 2s ease-in-out forwards;
+        .barraProgreso::-webkit-progress-bar {
+          background-color: #f2f2f2;
+          border-radius: 10px;
         }
         
-        .progress-text {
-          position: absolute;
-          top: 0;
-          right: 0;
-          bottom: 0;
-          left: 0;
-          color: #fff;
-          text-align: center;
-          line-height: 20px;
-          font-size: 12px;
+        .barraProgreso::-webkit-progress-value {
+          background-color: #4caf50;
+          border-radius: 10px;
+          transition: width 0.5s ease-in-out;
         }
+        
+        
+        
+        
+        
+        
 
 
          #argpro{
@@ -389,7 +390,7 @@ details {
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   font-family: 'Playfair Display SC', serif;
-  border: solid;color: black;
+  border: solid;color: rgb(255, 254, 254);
 }
 
 details:hover {
@@ -453,4 +454,10 @@ details[open] summary::before {
   font-family: 'Playfair Display SC', serif;
   border: solid;color: black;
 
+}
+function animarImagen(img) {
+  img.style.transform = 'scale(1.2)'; // aumenta el tamaño de la imagen en un 20%
+  setTimeout(function() {
+    img.style.transform = 'scale(1)'; // devuelve la imagen a su tamaño original después de 500ms
+  }, 500);
 }

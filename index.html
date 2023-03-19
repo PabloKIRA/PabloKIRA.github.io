@@ -17,9 +17,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Mansalva&family=Moon+Dance&family=Playfair+Display&family=Playfair+Display+SC&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/your-font-awesome-key.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/45f534d37a.js" crossorigin="anonymous"></script>
-    <script src="Js/JavaS.js" ></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+    <script src="Js/estilos.js"></script>
+   
     </head>
 
 
@@ -147,7 +146,9 @@ Sed vel neque sed augue aliquam molestie sed eget urna.
 
 
     <fieldset>
-    <article id="leng" >
+    
+        <article id="leng" >
+    
     <legend>Lenguajes de Programación</legend>
     <ul class="leng">
         <div id="dataleng">
@@ -158,8 +159,8 @@ Sed vel neque sed augue aliquam molestie sed eget urna.
             In hac habitasse platea dictumst. Nullam dignissim aliquet quam, quis porttitor tortor vulputate non. Etiam molestie pellentesque ex vel pharetra. Ut fringilla posuere est, a fringilla lorem viverra sit amet. Mauris gravida suscipit lacus, sed cursus tortor blandit at. Sed pellentesque risus in quam condimentum, ut aliquet sem auctor. Pellentesque sit amet neque scelerisque, tincidunt mauris non, bibendum justo. Nam congue nulla nec neque viverra volutpat. Suspendisse efficitur, magna ac lobortis laoreet, est tellus dapibus magna, sed pulvinar mauris libero a libero. Vivamus eget rutrum metus. Aliquam sed est tempor, commodo felis eget, vulputate magna. Integer tellus odio, faucibus porta egestas eget, blandit quis elit. Etiam ac leo mattis, bibendum tellus eget, venenatis turpis. Aliquam sodales sodales velit, et commodo nisi commodo non.</p>
          </div>
          <br>
-     
-         <div id="lenguajes" onclick="animarimagen()">
+    
+     <div id="lenguajes"onclick="animarimagen()"> </div>    
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png" width="100px " height="100px" alt="logo">
 &nbsp;
 &nbsp;
@@ -180,12 +181,12 @@ Sed vel neque sed augue aliquam molestie sed eget urna.
 &nbsp;
 &nbsp;
 &nbsp;
-     </div>
+      </div>
 
      <article class="datos">
-        <p>HTML: <progress class="barraProgreso" max="100" value="60"></progress></p>
-        <p>CSS: <progress class="barraProgreso" max="100" value="60"></progress></p>
-        <p>JS: <progress class="barraProgreso" max="100" value="50"></progress></p>
+        <p>HTML<progress class="barraProgreso" max="100" value="60"></progress></p>
+        <p>CSS <progress class="barraProgreso" max="100" value="60"></progress></p>
+        <p>JS<progress class="barraProgreso" max="100" value="50"></progress></p>
     </article>
 
 <button onclick="window.scrollTo(0, 0);">
@@ -203,6 +204,10 @@ Sed vel neque sed augue aliquam molestie sed eget urna.
 
         <legend>Proyectos Desarrollados</legend>
         <ul  class="Proyectos" >
+
+
+            
+
        
             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Pellentesque semper mi et faucibus condimentum.
@@ -229,15 +234,13 @@ Sed vel neque sed augue aliquam molestie sed eget urna.
  <img class="imgw"  src="data:image/png;base64,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" data-deferred="1" class="rg_i Q4LuWd" jsname="Q4LuWd" width="270" height="187" alt="Crea un portafolio estático con un gráfico de barras avanzado en CSS" data-iml="782.8000000119209" data-atf="true">
   <br>
 <br>
-  <div class="progress">
-    <div class="progress-bar"></div> 
-     <span class="progress-text">Nivel de Compromiso y Efectividad</span>
-  </div>
-  <br>
-  <br>
-   
-  <br>
+
   
+  <br>
+  <br>
+ 
+     
+
   <img class="imgw" src="https://img.freepik.com/fotos-premium/persona-hace-grafico-crecimiento-pantalla-grafica_102583-5227.jpg" jsaction="load:XAeZkd;" jsname="HiaYvf" class="n3VNCb pT0Scc KAlRDb" alt="La persona hace un gráfico de crecimiento en una pantalla gráfica. | Foto  Premium" data-noaft="1" style="width: 302.838px; height: 149px; margin: 0px;" >
         
   
@@ -245,7 +248,7 @@ Sed vel neque sed augue aliquam molestie sed eget urna.
   <img class="imgw" src="https://static-cse.canva.com/_next/static/assets/header-carousel-2_w922xh576_b17faacf6b157bffc1ec7269673d98834702bc5d95ac50fba54864c07a64c149.png" jsaction="load:XAeZkd;" jsname="HiaYvf" class="n3VNCb pT0Scc KAlRDb" alt="Creador de gráficas | Crea gráficas personalizadas online en minutos | Canva" data-noaft="1" style="width: 256.111px; height: 160px; margin: 0px;">
 
   <img id="argpro" src="https://i0.wp.com/diario-nco.com/wp-content/uploads/2021/09/Argentina-Programa-FUENTE-www.argentina.gob_.png?fit=1030%2C220&ssl=1" alt="banner2">
-
+ 
   <button onclick="window.scrollTo(0, 0);">Volver al inicio</button>
         </ul> 
         </article>
@@ -266,7 +269,7 @@ Sed vel neque sed augue aliquam molestie sed eget urna.
             <button type="submit">Enviar</button>
           </form>
          </article>
-        
+       
          </fieldset>
         
 
@@ -300,8 +303,8 @@ Sed vel neque sed augue aliquam molestie sed eget urna.
         <i class="fa fa-whatsapp"></i> 
       
       
-  
-<script src="js/JavaS.js"> </script> 
+
+ 
 </body>
 </main>
 </html>
